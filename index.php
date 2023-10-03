@@ -16,7 +16,7 @@ class Product {
     }
 
     public function showDetails(){
-    echo " Product Details:\n ID:{$this->id}\n Name: {$this->name}\n Price: {$this->getFormattedPrice()}\n";
+    echo " Product Details:\n -ID:{$this->id}\n -Name:{$this->name}\n -Price:{$this->getFormattedPrice()}\n";
 
     }
 }
